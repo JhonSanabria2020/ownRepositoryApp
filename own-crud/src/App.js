@@ -33,7 +33,7 @@ const App = () => {
         <Sider collapsible collapsed={collapsed} onCollapse={onCollapse}>
           <div className="logo" />
           <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline">
-            <Menu.Item key="1" icon={<PieChartOutlined />}>
+            <Menu.Item key="1" icon={<DesktopOutlined />}>
               Home
             </Menu.Item>
             <SubMenu key="sub1" icon={<UserOutlined />} title="Login">
